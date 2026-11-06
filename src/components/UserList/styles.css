@@ -1,0 +1,12 @@
+.user-list {
+  padding-top: 8px;
+}
+
+.user-list .MuiListItemButton-root {
+  border-radius: 10px;
+}
+
+.user-list .MuiListItemText-primary {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}

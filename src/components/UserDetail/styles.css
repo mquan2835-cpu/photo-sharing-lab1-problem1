@@ -1,0 +1,20 @@
+.user-detail.MuiPaper-root {
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 8px 24px rgba(16, 24, 40, 0.08);
+}
+
+.user-detail .user-detail-row {
+  margin: 8px 0;
+  line-height: 1.7;
+}
+
+.user-detail .user-detail-label {
+  color: #6b7280;
+  font-weight: 700;
+}
+
+.user-detail .user-detail-actions {
+  margin-top: 18px;
+}

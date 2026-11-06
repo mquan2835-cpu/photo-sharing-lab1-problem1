@@ -1,0 +1,24 @@
+.topbar-appBar.MuiAppBar-root {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  background-color: #1877f2;
+  box-shadow: 0 6px 16px rgba(24, 119, 242, 0.25);
+}
+
+.topbar-appBar .topbar-toolbar {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.topbar-appBar .topbar-name {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.topbar-appBar .topbar-context {
+  font-weight: 600;
+  text-align: right;
+}

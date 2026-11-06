@@ -1,0 +1,46 @@
+/* Each photo is a card: image, date, then its own comments underneath. */
+.photo-card.MuiPaper-root {
+  margin: 0 0 24px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 12px 28px rgba(2, 6, 23, 0.08);
+  overflow: hidden;
+}
+
+.photo-card .photo-card-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  background: #f8fafc;
+}
+
+.photo-card .photo-card-date,
+.photo-card .photo-comment-date {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.photo-card .photo-card-divider {
+  margin: 12px 0;
+}
+
+.photo-card .photo-card-heading {
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.photo-card .photo-comment {
+  margin-top: 12px;
+  padding: 12px 14px;
+  background: #f8fafc;
+  border: 1px solid rgba(2, 6, 23, 0.06);
+  border-radius: 12px;
+}
+
+.photo-card .photo-comment-author {
+  color: #1b74e4;
+  font-weight: 700;
+}
